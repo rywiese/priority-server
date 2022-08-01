@@ -13,6 +13,8 @@ repositories {
 }
 
 dependencies {
+    implementation("cc.vileda:kotlin-openapi3-dsl:1.2.0")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-json-org:2.13.3")
     testImplementation(kotlin("test"))
 }
 
